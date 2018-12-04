@@ -44,15 +44,15 @@ class Image(pyglet.sprite.Sprite):
 
 class Imagee(pyglet.sprite.Sprite):
     def __init__(self):
-        self.imahee = pyglet.image.load('resources/pic/nay.png.jpg')
+        self.imahee = pyglet.image.load('resources/pic/nay.png.png')
         super(Imagee, self).__init__(self.imahee)
         self.position = (1000, 0)
     def update(self):
-        self.imahee = pyglet.image.load('resources/pic/nay.png.jpg')
+        self.imahee = pyglet.image.load('resources/pic/nay.png.png')
         super(Imagee, self).__init__(self.imahee)
         self.position = (0, 0)
     def updatee(self):
-        self.imahee = pyglet.image.load('resources/pic/nay.png.jpg')
+        self.imahee = pyglet.image.load('resources/pic/nay.png.png')
         super(Imagee, self).__init__(self.imahee)
         self.position = (1000, 0)
 
