@@ -366,7 +366,9 @@ pyglet.clock.schedule_interval(update, 1) #For Timer
 pyglet.app.run()
 
 '''
-Sourc
+Sources:
+Downey, A. B. (2012, October). How to Think Like a Computer Scientist [PDF].
+Holkner, A. (2017, February 21). Pyglet Documentation [PDF].
 '''
 
 
